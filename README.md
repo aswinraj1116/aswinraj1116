@@ -74,26 +74,7 @@ Systems Engineer at **Publicis Sapient** specializing in backend microservices a
 
 ## 03 // ARCHITECTURAL CASE STUDIES
 
-### 🛠️ Case Study 01: [HeapVue Backend Infrastructure](https://github.com/Heapvue)
-> **Domain:** E-Commerce Backend &amp; Microservices Platform
-
-```text
-[ Client Requests ] → [ API Delivery Layer ] → [ Go Domain Microservices ]
-                                                     │
-                                                     ├──→ [ PostgreSQL (Transactional Data) ]
-                                                     └──→ [ Docker / Observability Instrumentation ]
-```
-
-* **System Architecture:** Go-based backend services engineered around modular domain separation, PostgreSQL data persistence, containerized execution, and telemetry instrumentation.
-* **Engineering Highlights:**
-  * Clean architectural boundaries isolating core domain business rules from external transport mechanisms.
-  * Optimized PostgreSQL query execution and relational schema design.
-  * Standardized container packaging for environment parity across development and production.
-* **Repository:** [`github.com/Heapvue`](https://github.com/Heapvue)
-
----
-
-### 🛠️ Case Study 02: [SolveMyHealth API Platform](https://github.com/SOLVEMyHealth)
+### 🛠️ Case Study 01: [SolveMyHealth API Platform](https://github.com/SOLVEMyHealth)
 > **Domain:** Healthcare Telemetry &amp; Service Integration
 
 ```text
@@ -109,7 +90,7 @@ Systems Engineer at **Publicis Sapient** specializing in backend microservices a
 
 ---
 
-### 🛠️ Case Study 03: Production Infrastructure &amp; Security Engineering
+### 🛠️ Case Study 02: Production Infrastructure &amp; Security Engineering
 > **Domain:** Container Hardening &amp; CI/CD Pipeline Automation (Publicis Sapient)
 
 ```text
