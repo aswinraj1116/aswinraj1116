@@ -1,69 +1,153 @@
 <div align="center">
 
-  <!-- 1. HERO BANNER -->
+  <!-- HERO VECTOR BANNER -->
   <img src="./assets/banner.svg" alt="K ASWIN RAJ - Backend &amp; Cloud Engineer" width="100%" />
 
   <br />
   <br />
 
-  <!-- BADGES & COUNTERS -->
+  <!-- MINIMALIST PROFILE METRICS -->
   <p>
     <a href="https://github.com/aswinraj1116">
-      <img src="https://img.shields.io/github/followers/aswinraj1116?style=flat-square&amp;color=0284c7&amp;labelColor=0f172a&amp;label=Followers" alt="Followers" />
+      <img src="https://img.shields.io/github/followers/aswinraj1116?style=flat-square&amp;color=1f6feb&amp;labelColor=0d1117&amp;label=Followers" alt="Followers" />
     </a>
+    &nbsp;
     <a href="https://github.com/aswinraj1116?tab=repositories">
-      <img src="https://img.shields.io/github/stars/aswinraj1116?style=flat-square&amp;color=0284c7&amp;labelColor=0f172a&amp;label=Stars" alt="Stars" />
+      <img src="https://img.shields.io/github/stars/aswinraj1116?style=flat-square&amp;color=1f6feb&amp;labelColor=0d1117&amp;label=Stars" alt="Stars" />
     </a>
+    &nbsp;
     <a href="https://github.com/aswinraj1116">
-      <img src="https://komarev.com/ghpvc/?username=aswinraj1116&amp;style=flat-square&amp;color=0284c7&amp;label=Profile+Views" alt="Profile Views" />
+      <img src="https://komarev.com/ghpvc/?username=aswinraj1116&amp;style=flat-square&amp;color=1f6feb&amp;label=Profile+Views" alt="Profile Views" />
     </a>
   </p>
 
   <p>
-    <b>Engineering production backend systems, scalable cloud infrastructure, and observable services.</b>
+    <b>Engineering production backend services, automated cloud infrastructure, and observable systems.</b>
   </p>
 
 </div>
 
 ---
 
-<!-- 2. SHORT PROFESSIONAL INTRODUCTION -->
-## ⚙️ About
+## 01 // OVERVIEW
 
-I am a **Systems Engineer at Publicis Sapient** specializing in backend systems engineering, cloud infrastructure, and telemetry. My core work revolves around designing reliable microservices, building containerized runtime environments, automating deployment pipelines, and ensuring deep observability across production workloads.
+Systems Engineer at **Publicis Sapient** specializing in backend microservices architecture, cloud platform engineering, and runtime telemetry. Core expertise spans Go service design, container orchestration with Kubernetes, infrastructure automation on AWS, and production database administration with PostgreSQL.
 
-* **Primary Engineering Focus:** Go, PostgreSQL, AWS, Kubernetes, and Docker.
-* **Operational Mindset:** Security hardening, automated CI/CD, system maintainability, and architectural performance.
+* **Positioning:** Backend &amp; Cloud Systems Infrastructure
+* **Core Stack:** Go • AWS • Kubernetes • PostgreSQL • Docker
+* **Operational Discipline:** Container hardening, automated CI/CD pipelines, system failure resilience, and continuous telemetry monitoring.
 
 ---
 
-<!-- 3. ENGINEERING FOCUS -->
-## 🎯 Engineering Focus
+## 02 // PRIMARY INFRASTRUCTURE &amp; RUNTIME STACK
+
+> Primary technologies powering production systems, platform automation, and microservices:
+
+<div align="center">
+  <br />
+  <p>
+    <a href="https://skillicons.dev">
+      <img src="https://skillicons.dev/icons?i=go,aws,kubernetes,postgres,docker&amp;theme=dark" alt="Primary Engineering Stack: Go, AWS, Kubernetes, PostgreSQL, Docker" height="52" />
+    </a>
+  </p>
+  <p>
+    <code><b>Go</b></code> &nbsp;•&nbsp; 
+    <code><b>AWS</b></code> &nbsp;•&nbsp; 
+    <code><b>Kubernetes</b></code> &nbsp;•&nbsp; 
+    <code><b>PostgreSQL</b></code> &nbsp;•&nbsp; 
+    <code><b>Docker</b></code>
+  </p>
+  <br />
+</div>
+
+### Technical Skill Matrix
+
+| Domain | Core Technologies &amp; Tooling |
+| :--- | :--- |
+| **Languages** | `Go` • `Python` • `TypeScript` |
+| **Backend &amp; Data Stores** | `Go Microservices` • `REST APIs` • `PostgreSQL` • `MySQL` • `Redis` |
+| **Cloud &amp; Platform** | `AWS (EKS, EC2, RDS, IAM)` • `Kubernetes` • `Docker` • `Terraform` • `GitLab CI/CD` • `GitOps` |
+| **Observability &amp; Operations** | `Grafana` • `New Relic` • `AWS CloudWatch` • `Prometheus` • `Git` |
+| **Supporting Technologies** | `React` • `Flutter` |
+
+---
+
+## 03 // ARCHITECTURAL CASE STUDIES
+
+### 🛠️ Case Study 01: [HeapVue Backend Infrastructure](https://github.com/Heapvue)
+> **Domain:** E-Commerce Backend &amp; Microservices Platform
+
+```text
+[ Client Requests ] → [ API Delivery Layer ] → [ Go Domain Microservices ]
+                                                     │
+                                                     ├──→ [ PostgreSQL (Transactional Data) ]
+                                                     └──→ [ Docker / Observability Instrumentation ]
+```
+
+* **System Architecture:** Go-based backend services engineered around modular domain separation, PostgreSQL data persistence, containerized execution, and telemetry instrumentation.
+* **Engineering Highlights:**
+  * Clean architectural boundaries isolating core domain business rules from external transport mechanisms.
+  * Optimized PostgreSQL query execution and relational schema design.
+  * Standardized container packaging for environment parity across development and production.
+* **Repository:** [`github.com/Heapvue`](https://github.com/Heapvue)
+
+---
+
+### 🛠️ Case Study 02: [SolveMyHealth API Platform](https://github.com/SOLVEMyHealth)
+> **Domain:** Healthcare Telemetry &amp; Service Integration
+
+```text
+[ Mobile / Web Applications ] → [ Secure REST API Gateway ] → [ Go/Python Services ] → [ MySQL / Redis ]
+```
+
+* **System Architecture:** High-availability backend integration platform delivering API endpoints and data pipelines for healthcare management application workflows.
+* **Engineering Highlights:**
+  * High-concurrency REST endpoints supporting real-time client state sync.
+  * Structured schema migration and indexing strategies for concurrent query handling.
+  * Strict API contracts ensuring data validity across client platforms.
+* **Repository:** [`github.com/SOLVEMyHealth`](https://github.com/SOLVEMyHealth)
+
+---
+
+### 🛠️ Case Study 03: Production Infrastructure &amp; Security Engineering
+> **Domain:** Container Hardening &amp; CI/CD Pipeline Automation (Publicis Sapient)
+
+```text
+[ Source Commit ] → [ GitLab CI/CD Pipeline ] → [ Docker Hardened Image Build ] → [ K8s / Telemetry Monitoring ]
+```
+
+* **System Architecture:** Enterprise DevOps automation framework focusing on hardened container runtime execution and continuous delivery.
+* **Engineering Highlights:**
+  * Built and deployed **Docker Hardened Images** to minimize vulnerability attack vectors across microservice workloads.
+  * Configured declarative **GitLab CI/CD** pipelines for automated build verification, static code analysis, and testing.
+  * Integrated multi-target observability using **Grafana**, **AWS CloudWatch**, and **New Relic** for real-time telemetry and alerting.
+
+---
+
+## 04 // CORE ENGINEERING FOCUS
 
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3>⚡ Backend Engineering</h3>
+      <h4>⚡ Backend Systems</h4>
       <ul>
-        <li><b>Go</b> &amp; Python runtime microservices</li>
-        <li>High-throughput <b>REST APIs</b> &amp; gRPC communication</li>
-        <li>Relational Data Modeling with <b>PostgreSQL</b> &amp; MySQL</li>
-        <li>Microservice architectures &amp; Modular Monoliths</li>
-        <li>Distributed caching with <b>Redis</b></li>
-        <li>API performance optimization &amp; contract testing</li>
-        <li>System design for failure resilience</li>
+        <li><b>Go</b> production backend development</li>
+        <li>High-throughput <b>REST APIs</b> &amp; gRPC interfaces</li>
+        <li>Relational database architecture with <b>PostgreSQL</b> &amp; MySQL</li>
+        <li>In-memory data caching with <b>Redis</b></li>
+        <li>Microservices &amp; Modular Monolith patterns</li>
+        <li>Database query optimization &amp; connection pooling</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3>☁️ Cloud &amp; Infrastructure</h3>
+      <h4>☁️ Cloud &amp; Platform Engineering</h4>
       <ul>
-        <li>Cloud Infrastructure on <b>AWS</b></li>
-        <li>Container orchestration using <b>Kubernetes</b></li>
-        <li>Containerization with <b>Docker Hardened Images</b></li>
-        <li>Infrastructure as Code (IaC) via <b>Terraform</b></li>
-        <li>Automated deployment with <b>GitLab CI/CD</b> &amp; GitOps</li>
-        <li>Full-stack telemetry using <b>Grafana</b>, <b>CloudWatch</b>, &amp; <b>New Relic</b></li>
-        <li>Platform engineering &amp; operational security</li>
+        <li>Cloud infrastructure on <b>AWS</b></li>
+        <li>Container orchestration with <b>Kubernetes</b></li>
+        <li><b>Docker Hardened Images</b> &amp; container security</li>
+        <li>Infrastructure as Code via <b>Terraform</b></li>
+        <li>Automated pipelines with <b>GitLab CI/CD</b> &amp; GitOps</li>
+        <li>Full-stack telemetry via <b>Grafana</b>, <b>CloudWatch</b>, &amp; <b>New Relic</b></li>
       </ul>
     </td>
   </tr>
@@ -71,118 +155,50 @@ I am a **Systems Engineer at Publicis Sapient** specializing in backend systems 
 
 ---
 
-<!-- 4. TECHNOLOGY STACK -->
-## 🛠️ Technology Stack
-
-### Core Technologies
-> Primary stack actively used for production services and platform engineering:
-
-<p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=go,aws,kubernetes,postgres,docker&amp;theme=dark" alt="Primary Core Stack" />
-  </a>
-</p>
-
-### Complete Tech Inventory
-
-| Category | Technologies |
-| :--- | :--- |
-| **Languages** | `Go` • `Python` • `TypeScript` |
-| **Backend &amp; Databases** | `Go (Standard Library / Gin / Fiber)` • `REST APIs` • `PostgreSQL` • `MySQL` • `Redis` |
-| **Cloud &amp; Infrastructure** | `AWS` • `Kubernetes` • `Docker` • `Terraform` • `GitLab CI/CD` • `GitOps` |
-| **Observability &amp; Tools** | `Grafana` • `New Relic` • `AWS CloudWatch` • `Prometheus` • `Git` |
-| **Secondary Frontend** | `React` • `Flutter` |
-
----
-
-<!-- 5. FEATURED PROJECTS -->
-## 🚀 Featured Projects
-
-### [HeapVue](https://github.com/Heapvue)
-> **E-Commerce &amp; Core Backend Systems Architecture**
-
-* **Architecture:** Go-based microservices architecture operating on PostgreSQL, containerized with Docker and instrumented for production telemetry.
-* **Key Highlights:**
-  * Modular backend design separating transactional domain logic from API delivery layers.
-  * Containerized deployment pipelines targeting cloud-native execution.
-  * Optimized SQL query execution and transactional isolation with PostgreSQL.
-* **Repository:** [github.com/Heapvue](https://github.com/Heapvue)
-
----
-
-### [SolveMyHealth](https://github.com/SOLVEMyHealth)
-> **Healthcare Data Services &amp; API Integration Platform**
-
-* **Architecture:** Backend platform delivering API services, secure data pipelines, and client integrations for healthcare management workflows.
-* **Key Highlights:**
-  * High-availability REST backend services supporting cross-platform mobile and web applications.
-  * Structured database schema design for concurrent user telemetry and health tracking.
-  * Reliable data validation and error-budget compliant service interfaces.
-* **Repository:** [github.com/SOLVEMyHealth](https://github.com/SOLVEMyHealth)
-
----
-
-### Production Infrastructure &amp; Security Engineering
-> **Container Hardening &amp; CI/CD Pipeline Automation**
-
-* **Architecture:** Enterprise DevOps automation framework emphasizing hardened execution runtime and continuous integration.
-* **Key Highlights:**
-  * Implementation of **Docker Hardened Images** minimizing vulnerability attack surface in production containers.
-  * Declarative **GitLab CI/CD** pipeline configurations for build, static analysis, unit testing, and deployment.
-  * Multi-target telemetry integration using **Grafana**, **CloudWatch**, and **New Relic** for real-time error tracking and health metrics.
-
----
-
-<!-- 6. PROFESSIONAL EXPERIENCE -->
-## 🏢 Professional Experience
+## 05 // PROFESSIONAL EXPERIENCE
 
 ### **Systems Engineer — Publicis Sapient**
-* **Production Container Security:** Engineered and maintained Docker Hardened Images across microservice components to ensure security compliance and vulnerability reduction.
-* **CI/CD &amp; Automation:** Maintained GitLab CI/CD pipelines to automate container builds, testing stages, and deployment verification.
-* **Database &amp; Services:** Managed PostgreSQL database instances, optimized queries, and integrated backend services.
-* **Telemetry &amp; Observability:** Configured metric dashboards and logging pipelines using Grafana, CloudWatch, and New Relic for continuous production monitoring.
-* **Infrastructure:** Worked within Kubernetes container runtime environments, supporting service mesh communication and resource allocation.
+* **Container Security &amp; Hardening:** Authored and maintained Docker Hardened Images for microservice deployment, reducing vulnerability attack surfaces.
+* **CI/CD Automation:** Built and optimized GitLab CI/CD pipelines for automated building, static security checks, and continuous integration.
+* **Database &amp; Storage:** Managed production PostgreSQL database instances, schema updates, and query optimization.
+* **Production Observability:** Configured metric dashboards, log aggregation, and real-time alerts using Grafana, AWS CloudWatch, and New Relic.
+* **Platform Operations:** Operated services within Kubernetes container runtime environments, supporting service deployment and workload health.
 
 ---
 
-<!-- 7. CURRENT LEARNING -->
-## 📈 Engineering Roadmap
+## 06 // CONTINUOUS LEARNING &amp; ROADMAP
 
 ```text
-[Current Focus Areas]
-├── → Go Backend Engineering & Concurrency Models
-├── → AWS Cloud Architecture & Infrastructure Design
-├── → Kubernetes Container Orchestration & Operators
-├── → Distributed Systems & Fault Tolerant Design
-├── → Scalable System Design Patterns
-└── → Platform Engineering & GitOps Workflows
+┌── [TECHNICAL ADVANCEMENT ROADMAP]
+├── → Go Advanced Concurrency Models & Distributed Primitives
+├── → AWS Cloud Architecture & Infrastructure Performance
+├── → Kubernetes Custom Controllers & Platform Engineering
+├── → Distributed System Design & Failure Domain Isolation
+└── → GitOps Workflows & Automated Delivery Pipelines
 ```
 
 ---
 
-<!-- 8. GITHUB STATISTICS -->
-## 📊 Statistics
+## 07 // SYSTEM TELEMETRY &amp; METRICS
 
 <div align="center">
   <table border="0">
     <tr>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=aswinraj1116&amp;show_icons=true&amp;theme=dark&amp;hide_border=true&amp;bg_color=0d1117&amp;title_color=38bdf8&amp;icon_color=34d399&amp;text_color=94a3b8" alt="GitHub Stats" width="410" />
+        <img src="https://github-readme-stats.vercel.app/api?username=aswinraj1116&amp;show_icons=true&amp;theme=dark&amp;hide_border=true&amp;bg_color=0d1117&amp;title_color=38bdf8&amp;icon_color=34d399&amp;text_color=8b949e" alt="GitHub Stats" width="410" />
       </td>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aswinraj1116&amp;layout=compact&amp;theme=dark&amp;hide_border=true&amp;bg_color=0d1117&amp;title_color=38bdf8&amp;text_color=94a3b8" alt="Top Languages" width="380" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aswinraj1116&amp;layout=compact&amp;theme=dark&amp;hide_border=true&amp;bg_color=0d1117&amp;title_color=38bdf8&amp;text_color=8b949e" alt="Top Languages" width="380" />
       </td>
     </tr>
   </table>
   <br />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aswinraj1116&amp;theme=dark&amp;background=0D1117&amp;border=1E293B&amp;stroke=38BDF8&amp;ring=38BDF8&amp;fire=38BDF8&amp;currStreakLabel=38BDF8" alt="Contribution Streak" width="800" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aswinraj1116&amp;theme=dark&amp;background=0D1117&amp;border=30363D&amp;stroke=38BDF8&amp;ring=38BDF8&amp;fire=38BDF8&amp;currStreakLabel=38BDF8" alt="Contribution Streak" width="800" />
 </div>
 
----
+<br />
 
-<!-- 9. CONTRIBUTION SNAKE -->
-## 🐍 Contribution Activity
-
+### Contribution Graph
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aswinraj1116/aswinraj1116/output/github-contribution-grid-snake-dark.svg" />
@@ -193,44 +209,24 @@ I am a **Systems Engineer at Publicis Sapient** specializing in backend systems 
 
 ---
 
-<!-- 10. ACHIEVEMENTS -->
-## 🏆 Achievements
+## 08 // CONNECT &amp; LINKS
 
 <div align="center">
-  <p>
-    <img src="https://github-profile-trophy.vercel.app/?username=aswinraj1116&amp;theme=darkhub&amp;no-frame=true&amp;column=6&amp;margin-w=15" alt="GitHub Achievements Trophies" />
-  </p>
-  <p>
-    <code>Pull Shark</code> • <code>YOLO</code> • <code>Quickdraw</code>
-  </p>
-</div>
-
----
-
-<!-- 11. CONNECT / CONTACT SECTION -->
-## 📬 Connect
-
-<div align="center">
+  <br />
   <p>
     <a href="https://www.linkedin.com/in/k-aswin-raj-89374a23b/">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" />
     </a>
-    &nbsp;
+    &nbsp;&nbsp;
     <a href="https://aswinraj1portfolio.vercel.app">
       <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="Portfolio" />
     </a>
-    &nbsp;
+    &nbsp;&nbsp;
     <a href="https://github.com/aswinraj1116">
       <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub Profile" />
     </a>
   </p>
-</div>
-
----
-
-<!-- 12. CLOSING STATEMENT -->
-<div align="center">
   <br />
-  <pre><code>$ echo "Building resilient systems with Go, Kubernetes, and Cloud Infrastructure."</code></pre>
-  <p><i>K ASWIN RAJ — Backend &amp; Cloud Engineer</i></p>
+  <pre><code>$ echo "Building resilient backend systems with Go, AWS, and Kubernetes."</code></pre>
+  <p><b>K ASWIN RAJ</b> — Backend &amp; Cloud Engineer</p>
 </div>
